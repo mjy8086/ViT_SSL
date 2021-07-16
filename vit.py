@@ -6,7 +6,6 @@ from tensorflow.keras.layers import (
     LayerNormalization,
 )
 
-
 class MultiHeadSelfAttention(tf.keras.layers.Layer):
     def __init__(self, embed_dim, num_heads=8):
         super(MultiHeadSelfAttention, self).__init__()
