@@ -9,7 +9,6 @@ import matplotlib.pyplot as plt
 from datetime import datetime
 
 
-
 AUTO = tf.data.AUTOTUNE
 BATCH_SIZE = 256
 EPOCHS = 300
